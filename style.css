@@ -6,8 +6,16 @@
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
    grid-gap: 20px;
+   justify-items: center;
+   align-items: center;
+   
 }
-.img {
+.logo{
    height: auto ;
-   max-width: 100%;
+   width: 56px;
+}
+
+
+.section.projet{
+   display: flex;
 }
