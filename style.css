@@ -10,6 +10,7 @@ h1, p {
 .card {
    border : 1px solid #00000099 ;
    border-radius: 8px ;
+   width: 280px;
    max-width: 700px;
    margin: 1rem auto;
    justify-items: center;
@@ -30,9 +31,9 @@ h1, p {
 
 
 .projet{
-   display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-   gap: 20px;
-   max-width: 900px;
-   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   gap: 30px;
+   padding: 20px 0;
 }
