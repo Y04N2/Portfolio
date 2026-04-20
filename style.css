@@ -1,5 +1,8 @@
 body {
-   background: #fbfbfb99 ;
+   background: #0f172a ;
+   font-family: 'Poppins' , sans-serif;
+   color: #ffffff;
+   line-height: 1.6;
 }
 
 h1, p {
@@ -8,7 +11,7 @@ h1, p {
 }
 
 .card {
-   border : 1px solid #00000099 ;
+   border : 1px solid #fcfcfc ;
    border-radius: 8px ;
    width: 280px;
    max-width: 700px;
@@ -17,7 +20,7 @@ h1, p {
    align-items: center;
    text-align: center;
    padding: 20px;
-   box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 4px rgba(254, 254, 254, 0.1);
    transition: transform 0.2s;  
 }
 
